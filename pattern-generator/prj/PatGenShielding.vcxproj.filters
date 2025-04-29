@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\patgen.cpp" />
+    <ClCompile Include="..\src\program.cpp">
+      <Filter>drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\shader.cpp">
+      <Filter>drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\vertexBuffer.cpp">
+      <Filter>drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\iniFile.cpp">
+      <Filter>fileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\imgui\imgui_impl_allegro5.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\imgui\imgui_impl_dx10.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\imgui\imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\imgui\imgui_impl_dx12.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\imgui\imgui_impl_dx9.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\imgui\imgui_impl_freeglut.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\imgui\imgui_impl_glfw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\imgui\imgui_impl_marmalade.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\imgui\imgui_impl_opengl2.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\imgui\imgui_impl_opengl3.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\imgui\imgui_impl_sdl.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\imgui\imgui_impl_vulkan.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pattern.cpp">
+      <Filter>patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\patternsDouble.cpp">
+      <Filter>patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\patternsSingle.cpp">
+      <Filter>patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\patternsTiled.cpp">
+      <Filter>patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common.cpp" />
+    <ClCompile Include="..\src\trackball.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="drawing">
+      <UniqueIdentifier>{b847bbbe-00ca-45f0-846c-27fd2ae2d9ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fileIO">
+      <UniqueIdentifier>{6d4898e2-f1ea-44e1-981f-929fdb77a02f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{bd24e07c-4b06-442b-95f1-26af41329cb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="patterns">
+      <UniqueIdentifier>{44f5ae17-55bf-437c-a353-94132221ca83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools">
+      <UniqueIdentifier>{40607e6d-0636-4cea-9a66-77c71e1bff1b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\program.h">
+      <Filter>drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\shader.h">
+      <Filter>drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\vertexBuffer.h">
+      <Filter>drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\iniFile.h">
+      <Filter>fileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\imgui\imgui_impl_allegro5.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\imgui\imgui_impl_dx10.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\imgui\imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\imgui\imgui_impl_dx12.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\imgui\imgui_impl_dx9.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\imgui\imgui_impl_freeglut.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\imgui\imgui_impl_glfw.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\imgui\imgui_impl_marmalade.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\imgui\imgui_impl_metal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\imgui\imgui_impl_opengl2.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\imgui\imgui_impl_opengl3.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\imgui\imgui_impl_osx.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\imgui\imgui_impl_sdl.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\imgui\imgui_impl_vulkan.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\pattern.h">
+      <Filter>patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\patternsDouble.h">
+      <Filter>patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\patternsSingle.h">
+      <Filter>patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\patternsTiled.h">
+      <Filter>patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\common.h" />
+    <ClInclude Include="..\src\trackball.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
+  </ItemGroup>
+</Project>
